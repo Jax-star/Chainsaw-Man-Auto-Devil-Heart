@@ -1,8 +1,8 @@
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
-getgenv()['IrisAd'] = true
-Notification.Notify("Made by @Anyx#6268", "Down for maintenance, Discord : https://discord.com/invite/WRqHTtXuws", "rbxasset://textures/ui/GuiImagePlaceholder.png", {
-Duration = 8,       
-Main = {
-    Rounding = true,
-}
-});
+ local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+ getgenv()['IrisAd'] = true
+ Notification.Notify("Join for updated version", "Discord : https://discord.gg/8tf8tzeWUw", "rbxasset://textures/ui/GuiImagePlaceholder.png", {
+ Duration = 8,       
+ Main = {
+     Rounding = true,
+ }
+ });
